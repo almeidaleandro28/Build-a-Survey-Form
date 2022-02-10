@@ -1,0 +1,74 @@
+/*=================
+  global style
+===================*/
+:root {
+  --color-white: #ffffff;
+  --title-size: 3em;
+  --bg: #f5eded;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--color-white);
+  height: 100vh;
+}
+
+/* ==============
+  layout
+===================*/
+
+/* header */
+.header {
+  text-align: center;
+  margin-top: 1em;
+}
+
+  .header #title { 
+    font-size: var(--title-size);
+    font-weight: 700;
+  } 
+
+  .header .description {
+    font-weight: 500;
+  }
+
+/* main */
+.main {
+  background-color: var(--bg);
+  height: 100%;
+ 
+}
+
+/* form */
+#survey-form {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+#survey-form input {
+  width: 100%;
+}
+
+#survey-form label {
+  padding-bottom: 1rem;
+}
+
+/* -- form-group -- */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+  .form-group legend {
+    text-align: center;
+  }
+
+
+
