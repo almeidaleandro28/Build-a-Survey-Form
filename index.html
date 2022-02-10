@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build a Survey Form</title>
+</head>
+<body>
+
+  <h1 id="title"></h1>
+  <p class="description"></p>
+
+  <form id="survey-form" action="">
+
+    <fieldset class="form-group">
+      <legend>personal information</legend>
+
+      <label for="name-label">
+        name
+        <input type="text" name="name" id="name" required>
+      </label>
+
+      <label for="email-label">
+        email
+      <input type="email" name="email" id="email" 
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+      placeholder="xxxxx@xx.com"
+      required>
+      </label>
+
+      <label for="number-label">
+        age
+      <input type="number" name="number" id="number"
+      pattern="/[0-9]"
+      min="14" max="80" required>
+      </label>
+
+  </fieldset><!-- end fieldset -->
+
+  <fieldset class="form-group">
+    <legend>course information</legend>
+
+    <label for="dropdown">course</label>
+    <select name="dropdown" id="dropdown">
+      <option value="front-end">front-end</option>
+      <option value="back-end">back end</option>
+      <option value="database">database</option>
+      <option value="design">design</option>
+    </select>
+
+  </fieldset><!-- end fieldset -->
+
+  <fieldset>
+
+  </fieldset><!-- end fieldset -->
+
+  <fieldset>
+    <legend>more information</legend>
+    <textarea name="" id="" cols="30" rows="10">
+      more information
+    </textarea>
+
+    <input id="submit" type="submit" value="submit">
+</fieldset>
+
+  </form><!-- end form -->
+  
+</body>
+</html>
