@@ -66,7 +66,7 @@ body {
  /* select */
 #survey-form #label-select {
  text-align: center;
- padding-left: 0;
+ 
 }
 
   #survey-form #dropdown {
@@ -77,8 +77,12 @@ body {
   }
 
 /* buttom */
-#form-group #submit {
-  margin: 0rem auto;
+#survey-form #submit {
+  font-weight: 700;
+  margin: 1rem auto;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  width: 70%;
 
 }
 
