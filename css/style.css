@@ -5,6 +5,8 @@
   --color-white: #ffffff;
   --title-size: 3em;
   --bg: #f5eded;
+  --bg-buuton: #00ffff;
+  --color-border: #dcdcdc;
 }
 
 * {
@@ -54,8 +56,9 @@ body {
 }
 
 #survey-form input {
-  width: 100%;
+  border: 1px solid var(--color-border);
   outline: none;
+  width: 100%;
 }
 
 #survey-form label {
@@ -70,10 +73,11 @@ body {
 }
 
   #survey-form #dropdown {
+    border: 1px solid var(--color-border);
+    cursor: pointer;
     margin: 0.5rem auto;
     padding-bottom: 0.5rem;
     width: 70%;
-    
   }
 
 /* buttom */
@@ -83,7 +87,14 @@ body {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   width: 70%;
+}
+/* textarea */
+#survey-form #textarea {
+  border: 1px solid  var(--color-border);
+}
 
+#survey-form #submit:hover {
+  background-color: #00ffff;
 }
 
 /* -- form-group -- */
