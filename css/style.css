@@ -63,6 +63,24 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+ /* select */
+#survey-form #label-select {
+ text-align: center;
+ padding-left: 0;
+}
+
+  #survey-form #dropdown {
+    margin: 0.5rem auto;
+    padding-bottom: 0.5rem;
+    width: 70%;
+    
+  }
+
+/* buttom */
+#form-group #submit {
+  margin: 0rem auto;
+
+}
 
 /* -- form-group -- */
 .form-group {
