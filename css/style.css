@@ -49,15 +49,19 @@ body {
 #survey-form {
   width: 50%;
   margin: 0 auto;
+  padding-top: 1em;
   
 }
 
 #survey-form input {
   width: 100%;
+  outline: none;
 }
 
 #survey-form label {
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* -- form-group -- */
