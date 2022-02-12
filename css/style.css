@@ -7,6 +7,7 @@
   --bg: #f5eded;
   --bg-buuton: #00ffff;
   --color-border: #dcdcdc;
+  --color-yellow: #ffff00;
 }
 
 * {
@@ -61,6 +62,10 @@ body {
   width: 100%;
 }
 
+#survey-form input:hover {
+  border: 1px solid var(--color-yellow);
+}
+
 #survey-form label {
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -78,6 +83,10 @@ body {
     margin: 0.5rem auto;
     padding-bottom: 0.5rem;
     width: 70%;
+  }
+
+  #survey-form #dropdown:hover {
+    border: 1px solid var(--color-yellow);
   }
 
 /* buttom */
