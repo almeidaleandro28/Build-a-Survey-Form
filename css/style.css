@@ -74,7 +74,7 @@ body {
  /* select */
 #survey-form #label-select {
  text-align: center;
- 
+ padding: 0;
 }
 
   #survey-form #dropdown {
@@ -114,6 +114,7 @@ body {
 
   .form-group legend {
     text-align: center;
+    font-weight: 600;
   }
 
 
