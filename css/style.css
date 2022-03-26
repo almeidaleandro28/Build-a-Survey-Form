@@ -50,7 +50,7 @@ body {
 /* main */
 .main {
   background-color: var(--bg);
-  height: 100%;
+  height: auto;
  
 }
 
@@ -123,5 +123,8 @@ body {
     font-weight: 600;
   }
 
+  .form-group-bt {
+    margin: 0 auto;
+  }
 
 
