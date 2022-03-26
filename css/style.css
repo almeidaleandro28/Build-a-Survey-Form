@@ -25,6 +25,12 @@ body {
 /* ==============
   layout
 ===================*/
+.container {
+  max-width: 960px;
+  min-width: 336px;
+  margin: 0 auto;
+  position: relative;
+}
 
 /* header */
 .header {
