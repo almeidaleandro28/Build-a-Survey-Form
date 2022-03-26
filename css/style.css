@@ -106,6 +106,8 @@ body {
 /* textarea */
 #survey-form #textarea {
   border: 1px solid  var(--color-border);
+  resize: none;
+  width: 100%;
 }
 
 #survey-form #submit:hover {
@@ -124,6 +126,9 @@ body {
   }
 
   .form-group-bt {
+    
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
   }
 
